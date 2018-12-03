@@ -1,5 +1,7 @@
 package basicAlgorithms;
 
+import java.util.Arrays;
+
 public class MinMax {
 
 	/*
@@ -18,8 +20,10 @@ public class MinMax {
 
 	/*
 	 * This function accepts Array of integers , 
-	 * and return the maximum and minimum integer in this Array
-	 * in a new Array with Two indexs
+	 * and return the maximum and minimum integer in this Array.
+	 * The return value will be a new array with two index ,
+	 * first one will be the biggest num , and the second will be
+	 * the smallest num
 	 */
 	public static int [] findMinMax1(int [] arr) {
 		if(arr.length == 0) {
@@ -100,4 +104,41 @@ public class MinMax {
 
 	}
 
+	/*
+	 * This function accepts Array of integers ,
+	 * and return the Two maximum numbers in it.
+	 * The return value will be a new array with two index ,
+	 * first one will be the biggest num , and the second will be
+	 * the second biggest num.
+	 */
+	public static int[] findMaxMax(int [] arr) {
+		if(arr.length == 0) {
+			int [] ans = {Integer.MAX_VALUE , Integer.MAX_VALUE};
+			return ans;
+		}
+		int max1 = arr[0] , max2 = arr[1];
+		if(arr[1] > arr[0]) {
+			max1 = arr[1];
+			max2 = arr[0];
+		}
+		for(int i=2 ; i<arr.length ; i++) {
+			if(max2 < arr[i]) {
+				if(max1 < arr[i]) {
+					max2 = max1;
+					max1 = arr[i];
+				}
+				else
+					max2 = arr[i];
+			}
+		}
+
+		int [] ans = {max1 , max2};
+		return ans;
+	}
+
+	public static void main(String[] args) {
+		int [] arr = {10,2,3,4,5,6,7,8,9};
+		int [] a = findMaxMax(arr);
+		System.out.println(Arrays.toString(a));
+	}
 }
