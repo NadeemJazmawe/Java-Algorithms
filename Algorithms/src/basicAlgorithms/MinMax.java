@@ -136,9 +136,5 @@ public class MinMax {
 		return ans;
 	}
 
-	public static void main(String[] args) {
-		int [] arr = {10,2,3,4,5,6,7,8,9};
-		int [] a = findMaxMax(arr);
-		System.out.println(Arrays.toString(a));
-	}
+
 }
