@@ -1,7 +1,5 @@
 package basicAlgorithms;
 
-import java.util.Arrays;
-
 public class MinMax {
 
 	/*

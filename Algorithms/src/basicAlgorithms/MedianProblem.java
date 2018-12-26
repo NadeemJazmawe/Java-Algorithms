@@ -1,6 +1,5 @@
 package basicAlgorithms;
 
-import java.util.Arrays;
 
 public class MedianProblem {
 	
