@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class isBipartite {
+	
 	public static boolean isBipartite(ArrayList<Integer>[] graph){
 		boolean  bipartite = true;
 		int size = graph.length;

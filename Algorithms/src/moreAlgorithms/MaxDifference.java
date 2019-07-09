@@ -2,6 +2,7 @@ package moreAlgorithms;
 
 public class MaxDifference {
 
+	
 	public static int MaxDifference1(int[]a) {
 		int n=a.length;
 		int maxdiff=a[1]-a[0];

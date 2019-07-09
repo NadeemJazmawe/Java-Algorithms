@@ -1,6 +1,7 @@
 package moreAlgorithms;
 
 public class bestCycleReturnedTheSubarray {
+	
 	public static int[] best(int[] a){
 		int i=0;
 		while (i<a.length && a[i]<=0) 

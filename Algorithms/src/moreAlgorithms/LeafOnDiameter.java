@@ -5,6 +5,7 @@ import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class LeafOnDiameter {
+	
 
 	public static boolean leafisondiameter(ArrayList<Integer>[] graph,int s){
 		BFS tree= new BFS(graph);

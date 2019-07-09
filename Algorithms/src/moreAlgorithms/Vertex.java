@@ -1,6 +1,7 @@
 package moreAlgorithms;
 
 public class Vertex{
+	
     int weight;// the weight of the vertex for adjacency table 
     int vertex; // the vertex number
 		

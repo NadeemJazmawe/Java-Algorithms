@@ -2,6 +2,7 @@ package moreAlgorithms;
 
 import java.util.ArrayList;
 public class Edge implements Comparable<Edge>{
+	
 	private int vertexA, vertexB;
 	private int weight;
 

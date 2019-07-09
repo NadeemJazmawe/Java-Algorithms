@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 
 public class EulerCycle {
+	
 	ArrayList<Integer>[] graph;//input graph
 	ArrayList<Integer> ec; // Euler cycle of vertexes
 	Stack<Integer> st;

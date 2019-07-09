@@ -5,6 +5,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 public class lessColor {
 
+	
 	public static ArrayList<Integer>[]coloredGraph(ArrayList<Integer>[] graph){
 		int size = graph.length;
 		int[] dist = new int[size], pred = new int[size], color = new int[size];

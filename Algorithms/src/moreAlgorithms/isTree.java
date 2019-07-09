@@ -22,4 +22,5 @@ public class isTree {
 		}
 		return true;
 	}
+	
 }

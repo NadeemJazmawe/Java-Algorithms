@@ -71,5 +71,4 @@ public class SeriesSortOfConnectedCompnent {
 		Arrays.sort(result);
 		return result;
 	}
-
 }

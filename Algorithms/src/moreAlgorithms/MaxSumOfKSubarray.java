@@ -3,6 +3,7 @@ package moreAlgorithms;
 public class MaxSumOfKSubarray {
 
 	public static int maxsumofksubarray(int [] a,int k) {
+		
 		int max=0;
 		int [] b=new int[a.length];
 		int [] c=new int[a.length];

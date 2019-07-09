@@ -1,5 +1,6 @@
 package moreAlgorithms;
 
+
 public class bestShortestSubIntervalLength {
 
 	public static int bestShortestSubInterval(int[] a){

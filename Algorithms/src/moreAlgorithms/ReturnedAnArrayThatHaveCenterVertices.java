@@ -14,6 +14,7 @@ public class ReturnedAnArrayThatHaveCenterVertices {
 		Vector<Integer>[] graph;
 		ArrayList<Integer>[] original;
 		
+		
 //		public Question3(ArrayList<Integer>[] g){
 //			original = new ArrayList[g.length];
 //			original = g;

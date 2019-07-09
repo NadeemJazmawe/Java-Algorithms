@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.Stack;
 import java.util.ArrayList;
 
+
 public class EulerPath {
+	
 	ArrayList<Integer>[] graph;//input graph
 	ArrayList<Integer> ec; // Euler path of vertexes
 	Stack<Integer> st;

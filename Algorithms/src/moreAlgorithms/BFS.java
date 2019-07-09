@@ -6,6 +6,7 @@ import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class BFS {
+	
 	private  int size;//number of vertexes
 	private  Queue<Integer> q;
 	private  int dist[], pred[], color[], partition[];

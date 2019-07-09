@@ -14,7 +14,8 @@ public class bestInteval {
 			}
 			ans = new int[1];
 			ans[0] = a[maxIndex];
-		} else {
+		}
+		else {
 			int  endMax = i+1, count = 0, countMax = 1, bestCount = 1;
 			double maxSum=a[i], sum = 0;
 			while(i<a.length){

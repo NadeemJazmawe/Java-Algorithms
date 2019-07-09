@@ -1,6 +1,7 @@
 package moreAlgorithms;
 
 public class isGraph {
+	
 	public static boolean isGraph(int[] degrees){
 		boolean ans = true;
 		int sumDeg = 0;

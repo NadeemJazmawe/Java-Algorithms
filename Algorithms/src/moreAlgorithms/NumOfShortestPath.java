@@ -45,5 +45,4 @@ public class NumOfShortestPath {
 		}	
 		return paths;
 	}
-
 }
